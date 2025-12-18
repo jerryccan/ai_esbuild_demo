@@ -1,0 +1,13 @@
+{
+  "name": "esbuild-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node ./esbuild.config.mjs"
+  },
+  "dependencies": {
+    "esbuild": "^0.27.2",
+    "lodash": "^4.17.21"
+  }
+}
