@@ -2,7 +2,7 @@
 node_modules/
 
 # 构建产物
-/dist/
+dist
 
 # Source maps（如切回外联）
 *.map
