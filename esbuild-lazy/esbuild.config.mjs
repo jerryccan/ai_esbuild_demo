@@ -19,6 +19,9 @@ async function main() {
     target: ["es2018"],
     logLevel: "info",
     metafile: true, // 生成构建元信息，便于体积分析
+    // 自定义拆分出来的 chunk 文件名：使用原始名称 + 内容哈希
+    // 可用占位符：[name]、[hash]、[ext]、[dir]
+    chunkNames: "chunks/[name]-[hash]",
   })
 
   // 输出体积分析报告（tree/table）
